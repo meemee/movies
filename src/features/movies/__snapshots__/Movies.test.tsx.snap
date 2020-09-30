@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox renders 1`] = `
+<div>
+  <div
+    class="ant-row"
+    style="margin: -16px -8px 16px -8px;"
+  />
+</div>
+`;

@@ -1,3 +1,3 @@
 import { RootState } from "../../reducers";
 
-export const getMovies = () => (state: RootState) => state.movies;
+export const selectMovies = () => (state: RootState) => state.movies;

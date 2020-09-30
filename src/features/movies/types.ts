@@ -20,7 +20,3 @@ export interface FetchMoviesResponse {
     Search: MoviePoster[];
     totalResults: string;
 }
-
-export interface IMovies {
-    loadMoreMovies: () => void;
-}
