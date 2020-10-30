@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import SearchBox from './';
+import SearchBox from '.';
 import { BrowserRouter } from 'react-router-dom';
 
 

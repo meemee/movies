@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import { useSelector } from 'react-redux';
 import { selectMovies } from './selectors';
 import { Row } from 'antd';
-import MoviePoster from '../../components/MoviePoster';
+import MoviePoster from '../../components/moviePoster';
 
 const Movies = (): ReactElement => {
 

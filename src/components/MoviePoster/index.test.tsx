@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import MoviePoster from './';
+import MoviePoster from '.';
 import { BrowserRouter } from 'react-router-dom';
 
 

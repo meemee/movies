@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import DevTools from './components/DevTools';
+import DevTools from './components/devTools';
 import rootReducer from './reducers';
 
 

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'antd/dist/antd.css';
-import App from './components/App';
+import App from './components/app';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import store from './store';
-import DevTools from './components/DevTools';
+import DevTools from './components/devTools';
 
 ReactDOM.render(
   <Provider store={store}>
