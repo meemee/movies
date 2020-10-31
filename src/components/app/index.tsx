@@ -1,14 +1,9 @@
-import React, { ReactElement } from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Home from '../../pages/Home';
-import Details from '../../pages/Details';
+import React, { ReactElement } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "../../pages/Home";
+import Details from "../../pages/Details";
 
 const App = (): ReactElement => {
-  
   return (
     <Router>
       <Switch>
@@ -21,6 +16,6 @@ const App = (): ReactElement => {
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;
